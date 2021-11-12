@@ -1,0 +1,15 @@
+runtime: php73
+
+env_variables:
+  ## Put production environment variables here.
+  APP_KEY: base64:npFYpO7e/Ebf7VJ4SHf2fzyzhnCzkd+ddH4KwNqVp18=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: database
+  CACHE_DRIVER: database
+
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: NwnnKM5ejDJwnGIx
+
+  DB_SOCKET: "/cloudsql/covendor-app:asia-southeast2:mysql-covendor"
